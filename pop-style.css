@@ -1,10 +1,23 @@
-*{
-  margin: 0;
-  padding: 0;
-  background: rgba(230, 94, 146, 0.5);
+body{
   font-family: fantasy;
+  margin: 0;
+  font-size: 20px;
 }
-h1{
+header{
+  background: rgba(230, 94, 146, 0.5);
+  margin: 0 auto;
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+.info{
   color: white;
-
+  margin-right: 1rem;
+}
+img{
+  width: 280px;
+  margin-top: 3rem;
 }
