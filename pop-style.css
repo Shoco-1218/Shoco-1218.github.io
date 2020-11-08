@@ -1,23 +1,88 @@
-body{
-  font-family: fantasy;
-  margin: 0;
-  font-size: 20px;
+/* black: rgb(61, 60, 60) */
+
+* {
+	margin: 0em;
+	padding: 0em;
+	font-size: 62.5%;
+	border-style: none;
+  list-style-type: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.8;
 }
-header{
-  background: rgba(230, 94, 146, 0.5);
-  margin: 0 auto;
-  text-align: center;
+body {
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: grid;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.container{
+@media (max-width: 1200px) {
+  * {
+    font-size: 40%;
+  }
+}
+@media (max-width: 900px) {
+  * {
+    font-size: 35%;
+  }
+}
+@media (max-width: 600px) {
+  * {
+    font-size: 20%;
+  }
+}
+header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 3;
+}
+nav ul {
+  padding-top: 3rem;
   display: flex;
   justify-content: center;
-  padding: 3rem;
 }
-.info{
-  color: white;
-  margin-right: 1rem;
+nav li {
+  display: inline-block;
+  padding: 1.5rem;
 }
-img{
-  width: 280px;
-  margin-top: 3rem;
+nav a {
+  text-decoration: none;
+  color: rgb(61, 60, 60); 
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+main {
+  padding-bottom: 10rem;
+  box-sizing: border-box;	
+}
+#welcome-section {
+  background-image: url("https://images.pexels.com/photos/1023953/pexels-photo-1023953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+#names {
+  position: absolute;
+  top: calc((100%/ 3) * 2);
+  left: calc((100%/ 3) * 2);
+}
+#names h1 {
+  font-size: 5rem;
+  font-family: 'HGP行書体', 'ＭＳＰ明朝', 'MS PMincho', serif;
+}
+#work {
+  width: 100vw;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#work a {
+  text-decoration: none;
+  font-size: 3rem;
 }
