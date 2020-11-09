@@ -54,7 +54,6 @@ nav a {
   text-transform: uppercase;
 }
 main {
-  padding-bottom: 10rem;
   box-sizing: border-box;	
 }
 #welcome-section {
@@ -74,6 +73,15 @@ main {
 #names h1 {
   font-size: 5rem;
   font-family: 'HGP行書体', 'ＭＳＰ明朝', 'MS PMincho', serif;
+  animation: zoomin 5s linear;
+}
+@keyframes zoomin {
+	0% {
+    opacity: 0.0;
+  }
+	100% {
+    opacity: 1.0;
+	}
 }
 #work {
   width: 100vw;
@@ -82,7 +90,31 @@ main {
   justify-content: center;
   align-items: center;
 }
+#links h2 {
+  font-size: 4rem;
+}
+#links li {
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-align: center;
+}
+#links li:hover {
+  background: rgb(250, 211, 217);
+  /* https://www.youtube.com/watch?v=uR7EbQImYmo */
+}
 #work a {
   text-decoration: none;
+  font-size: 3rem;
+}
+footer {
+  background: rgb(250, 211, 217);
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
   font-size: 3rem;
 }
