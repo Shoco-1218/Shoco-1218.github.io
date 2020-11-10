@@ -94,17 +94,17 @@ main {
   font-size: 4rem;
 }
 #links li {
-  padding: 2rem;
-  border-radius: 1rem;
-  border: 1px solid #ccc;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  /* padding: 1rem; */
+  /* border-radius: 1rem; */
+  /* border: 1px solid #ccc; */
+  /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
   text-align: center;
 }
-#links li:hover {
+#links a:hover {
   background: rgb(250, 211, 217);
   /* https://www.youtube.com/watch?v=uR7EbQImYmo */
 }
-#work a {
+#links a {
   text-decoration: none;
   font-size: 3rem;
 }
@@ -117,4 +117,15 @@ footer {
 }
 footer p {
   font-size: 3rem;
+}
+
+@media (max-width: 575.98px) {
+  #welcome-section {
+    background-attachment: local;
+  }
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #welcome-section {
+    background-attachment: local;
+  }
 }
