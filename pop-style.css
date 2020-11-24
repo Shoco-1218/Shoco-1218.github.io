@@ -108,6 +108,36 @@ main {
     opacity: 1.0;
 	}
 }
+.welcome_icon {
+  position: absolute;
+  top: calc(100%/ 1.15);
+  left: calc(100%/ 2);
+  height: 6rem;
+  width: 8rem;
+  line-height: 6rem;
+  text-align: center;
+  animation: scroll-down 3s ease-in-out infinite;
+}
+.welcome_icon a,
+.welcome_icon  li {
+  text-decoration: none;
+  color: rgb(61, 60, 60);
+  font-size: 6rem;
+}
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-6rem);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
 #projects {
   margin: 5rem 0;
   width: 100vw;
