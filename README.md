@@ -1,5 +1,5 @@
 # Shocopop
-For something you know, or you would know
+The simple efficient profolio about projects.
 
 If you wanna dive in this _world_  <br>
 
