@@ -163,7 +163,7 @@ main {
   height: 1.5rem;
   background-color: rgb(250, 211, 217);
   border: 0.5rem solid white;
-  left: calc(50% - 2rem);
+  left: calc(50% - 1.2rem);
   bottom: -1rem;
 }
 #project-block {
@@ -172,7 +172,7 @@ main {
   flex-wrap: wrap;
 }
 .project-box {
-  width: calc(45% - 8rem);
+  width: calc(40% - 10rem);
   height: 23rem;
   text-align: center;
   border: 5px solid rgb(250, 211, 217);
@@ -264,11 +264,14 @@ footer p {
 
 
 @media (max-width: 575.98px) {
+  * {
+    line-height: 1.5;
+  }
   #welcome-section {
     background-attachment: local;
   }
   .project-box {
-    width: 70%;
+    width: 60%;
   }
   .navbar a {
     font-size: 2rem;
