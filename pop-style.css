@@ -172,8 +172,8 @@ main {
   flex-wrap: wrap;
 }
 .project-box {
-  width: calc(40% - 10rem);
-  height: 23rem;
+  width: calc(30% - 10rem);
+  height: 30rem;
   text-align: center;
   border: 5px solid rgb(250, 211, 217);
   box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
@@ -182,8 +182,9 @@ main {
   padding: 4rem 2rem;
   cursor: pointer;
   transition: 0.5s;
+  text-decoration: none;
 }
-.project-box a {
+.project-link {
   text-decoration: none;
 }
 .project-box i {
