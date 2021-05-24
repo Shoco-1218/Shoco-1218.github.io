@@ -7,6 +7,7 @@
 	font-size: 62.5%;
 	border-style: none;
   list-style-type: none;
+  text-decoration: none;
   font-family: 'Alegreya Sans SC', sans-serif;
   scroll-behavior: smooth;
   line-height: 1.8;
@@ -183,6 +184,11 @@ main {
   padding: 4rem 2rem;
   cursor: pointer;
   transition: 0.5s;
+}
+.project-box p{
+  color: gray;
+}
+.project-box a {
   text-decoration: none;
 }
 .project-box i {
