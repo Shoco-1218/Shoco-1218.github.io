@@ -1,8 +1,6 @@
 # Shocopop
-The simple efficient profolio about projects.
+The simple efficient portfolio about myself.
 
-If you wanna dive in this _world_  <br>
-
-``My code is here``<br>
+``My code is here``
 
 [My website is here](https://shoco-1218.github.io/)
