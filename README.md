@@ -1,6 +1,2 @@
 # Shocopop
-The simple efficient portfolio about myself.
-
-``The code``
-
-[The website](https://shoco-1218.github.io/)
+The simple efficient portfolio, access to the website from [here](https://shoco-1218.github.io/).
